@@ -1,11 +1,7 @@
 # Remidi-Semester-2_Program-Kasir
-package Encapsulation;
+    package Encapsulation;
 
-/**
- *
- * @author USER
- */
-public class JayaBaru {
+    public class JayaBaru {
     private String Toko;
     private String Merk;
     private String Size;
@@ -69,9 +65,8 @@ public class JayaBaru {
     
     
     package Encapsulation;
-
-
-public class main {
+    
+    public class main {
     public static void main(String[]args){
         JayaBaru wie = new JayaBaru();
         wie.setToko("Sepatu Jaya Baru");
@@ -93,13 +88,14 @@ public class main {
         System.out.println("Diskon "+wie.getDiskon());
     }
     
+    //output
     
     Toko Sepatu Jaya Baru
-Merk:910, adidas, nike, skechers, puma, reebok, vans, converse, dan fila
-Size:25, 26, 27, 28, 29, 30, 31, 32, 33, dan 34
-Warna:black, white, gold, silver, orange, green, yellow, blue, red
-Jenis:cowok dan cewek
-Kategori:olahraga, lari, santai, dan kantoran
-Harga:mulai 200.000, 300.000, 400.000, 500.000, 600.000, 700.000, 800.000 dan 900.000
-Diskon Untuk pembelian 2 pasang sepatu akan mendapatkan diskon 50.000 dan untuk pembelian 3 pasang sepatu diskon 100.000
-BUILD SUCCESSFUL (total time: 0 seconds)
+    Merk:910, adidas, nike, skechers, puma, reebok, vans, converse, dan fila
+    Size:25, 26, 27, 28, 29, 30, 31, 32, 33, dan 34
+    Warna:black, white, gold, silver, orange, green, yellow, blue, red
+    Jenis:cowok dan cewek
+    Kategori:olahraga, lari, santai, dan kantoran
+    Harga:mulai 200.000, 300.000, 400.000, 500.000, 600.000, 700.000, 800.000 dan 900.000
+    Diskon Untuk pembelian 2 pasang sepatu akan mendapatkan diskon 50.000 dan untuk pembelian 3 pasang sepatu diskon 100.000
+    BUILD SUCCESSFUL (total time: 0 seconds)
